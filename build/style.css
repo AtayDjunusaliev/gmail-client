@@ -137,9 +137,50 @@ main {
   margin: 10px 10px 10px 0px;
   overflow: scroll; }
 
+.main-buttons {
+  height: 40px;
+  width: 100%;
+  border: 1px solid black;
+  color: grey;
+  display: flex;
+  font-size: 16px;
+  line-height: 40px; }
+
+.fa-repeat, .fa-ellipsis-v {
+  margin: 0 10px; }
+
+.rangeNumber, .totalNumber {
+  position: relative;
+  left: 870px;
+  margin: 0 10px;
+  font-size: 14px; }
+
+.arrows .fa-chevron-left, .fa-chevron-right {
+  position: relative;
+  left: 880px;
+  margin: 0 10px; }
+
+.keyboard .fa-keyboard-o {
+  position: relative;
+  left: 890px;
+  color: black; }
+
+.main-buttons i:hover {
+  color: black; }
+
+.of {
+  position: relative;
+  left: 872px; }
+
+.checkbox .checkboxInput {
+  font-size: 18px; }
+
+.checkboxInput:checked:before {
+  background-color: black; }
+
 .tabs {
   display: flex;
-  line-height: 56px;
+  line-height: 58px;
   width: 100%;
   border-bottom: 1px solid grey; }
 
